@@ -1,0 +1,123 @@
+/* Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+}
+
+/* TAGS */
+html {
+    font-size: 10px;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #373737;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* CLASSES */
+.header {
+    height: 790px;
+    width: 100%;
+    background: url(../images/bg-header.png) #FFFFFF no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Navigation bar */
+.navigation {
+    height: 80px;
+    vertical-align: middle;
+}
+.nav-bar {    
+    margin: 0 auto;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-btn {
+    color: #16A085;
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    height: 650px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f6f7;
+}
+.content .title {
+    margin-top: 50px;
+    font-weight: bold;
+}
+.content p {
+    margin-top: 30px;
+    line-height: 26px; 
+}
+.btn {
+    padding: 23px 45px;
+    background-color: #16A085;
+    border: 1px #16A085 solid;
+    border-radius: 5px;
+    font-family: 'Gotham Rounded Bold', sans-serif;
+    color: #ffffff;
+    user-select: none; 
+}
+.get-start {
+    margin-top: 40px;
+}
+
+.footer {
+    height: 110px;
+}
+.footer p {    
+    padding: 50px 105px 0 0;
+    text-align: right;
+}
+.footer p span {    
+    text-transform: capitalize;
+}
+
+
+
+/* Fonts */
+.font-22 {
+    font-size: 2.2rem;
+    letter-spacing: 3.3px;
+}
+.font-18 {
+    font-size: 1.8rem;    
+    letter-spacing: 2.7px;
+}
+.font-16 {
+    font-size: 1.6rem;
+    letter-spacing: 2.4px;
+}
+.font-12 {
+    font-size: 1.2rem;
+    letter-spacing: 1.8px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "Gotham Rounded Bold";
+    src: url('../fonts/GothamRoundedBold_21016.ttf') type "opentype";
+    font-style: normal;
+    font-weight: bold;
+}
