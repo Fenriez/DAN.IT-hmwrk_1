@@ -43,6 +43,14 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+/* .nav-bar {    
+    margin: 0 auto;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
 .nav-btn {
     color: #16A085;
     text-transform: uppercase;
@@ -60,6 +68,14 @@ nav {
 }
 
 /* Section - Content */
+/* .content {
+    height: 650px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f6f7;
+} */
 .content {
     height: 650px;
     display: flex;
